@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav{
+    width: 60%;  
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+li:hover {
+    color: #ff6666;
+}    
+
+#logo { 
+    width: 100px;
+    height: auto;
+
+}
+
+#banner-ingressos {
+    background-color:#383838 ;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    
+    
+}
+
+.ingressos-cards {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.cards-container {
+    width: 90%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 20px;
+   
+
+}
+
+.card1 {
+    width: 100%;
+    height: 90%;
+    border: dotted;
+    border-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.card-pt-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-pt-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-pt-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.logo-1 { 
+    width: 125px;
+    height: 100px;
+}
+
+.logo-2 { 
+    width: 100px;
+    height: 100px;
+}
+
+
+p { 
+    color: white;
+    text-align: center;
+}
+
+button { 
+    color: black;
+    background-color: #ffbe00;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 4px;
+
+}
+
+
+
+
+
+
+
+.card2 { 
+    width: 100%;
+    height: 90%;
+    border: dotted;
+    border-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-pt1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-pt2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-pt3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+spam{
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
