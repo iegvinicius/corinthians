@@ -1,1 +1,44 @@
 info jogadores elenco
+
+	GOLEIROS
+
+-Carlos Miguel 
+-Cássio
+-M. Donelli
+
+	ZAGUEIROS
+
+-Murillo
+-Bruno Méndez
+-Caetano
+-Gil
+
+	LATERAIS
+
+-Fábio Santos
+-Fagner
+-Matheus Bidu
+-Rafael Ramos
+
+	MEIO
+
+-Matheus Araujo
+-Cantilho 
+-Fausto Vero
+-Luan
+-Maycon
+-Giuliano
+-Paulinho
+-Renato Augusto
+-Roni
+-Ruan Oliveira
+
+	ATACANTES
+
+-Barletta
+-Adson
+-Gustavo Silva
+-Giovane
+-Romero
+-Róger Guedes
+-Yuri Alberto
