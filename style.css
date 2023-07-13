@@ -37,7 +37,8 @@ li {
 }
 
 li:hover {
-    color: #ff6666;
+    color: #e6e6e6;
+    font-size: 20px;
 
 }
 
@@ -116,8 +117,10 @@ li:hover {
 
 .button:hover {
 
-    background-color: #ff6666;
+    background-color: #e6b800;
     counter-reset: black;
+    
+    
 
 }
 

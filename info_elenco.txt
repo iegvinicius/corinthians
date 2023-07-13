@@ -24,7 +24,7 @@ info jogadores elenco
 
 -Matheus Araujo
 -Cantilho 
--Fausto Vero
+-Fausto Vera
 -Luan
 -Maycon
 -Giuliano

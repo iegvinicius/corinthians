@@ -38,7 +38,8 @@ li {
 }
 
 li:hover {
-    color: #ff6666;
+    color: #e6e6e6;
+    font-size: 20px;
 }    
 
 #logo { 
