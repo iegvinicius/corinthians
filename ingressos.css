@@ -49,50 +49,76 @@ li:hover {
 }
 
 #banner-ingressos {
-    background-color:#383838 ;
+    background-color:#0000 ;
     width: 100%;
     height: 50px;
     display: flex;
     justify-content: center;
+    border-top: 3px solid;
+    border-color: #383838;
     
 }
 
 h1{
     width: 100%;
-    height: 200px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    
+    
+}
+
+h2{
+    width: 100%;
+    height: 150px;
     background-color: black;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 50px;
+    text-align: center;
     
     
 }
 
+
+
+
 .ingressos-cards {
     width: 100%;
-    height: 300px;
+    height: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
     
     
 }
 
 .cards-container {
-    width: 90%;
+    width: 75%;
+    height: auto;
     display:grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
     column-gap: 40px;
     row-gap: 20px;
+    
+    
    
 
 }
 
 .card1 {
-    width: 100%;
-    height: 90%;
+    width: auto;
+    height: 200px;
     border: dotted;
+    align-items: center;
     border-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -152,36 +178,6 @@ button {
 
 
 
-.card2 { 
-    width: 100%;
-    height: 90%;
-    border: dotted;
-    border-color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.card-pt1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.card-pt2 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.card-pt3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
 
 
 footer {
@@ -212,7 +208,29 @@ spam{
 
 
 
+@media(max-width:768px) {
 
+.footer-navigation {
+    display: block;
+}
+
+nav {
+    display: none;
+}
+
+h2 {
+    text-align: center;
+    font-size: 23px;
+}
+
+.cards-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+}
 
 
 

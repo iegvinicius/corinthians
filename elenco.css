@@ -49,12 +49,14 @@ nav{
 
 }
 
-#banner-ingressos {
-    background-color:#383838 ;
+#banner-elenco {
+    background-color:#0000 ;
     width: 100%;
     height: 50px;
     display: flex;
     justify-content: center;
+    border-top: 3px solid;
+    border-color: #383838;
     
 }
 
@@ -157,6 +159,28 @@ spam{
 
 }
 
+
+@media(max-width:768px) {
+
+.footer-navigation {
+    display: block;
+ }
+    
+nav {
+    display: none;
+}
+
+
+.ul-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+
+
+}
 
 
 

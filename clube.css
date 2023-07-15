@@ -51,11 +51,28 @@ li:hover {
 
 
 .banner-clube {
-    background-color:#383838 ;
+    background-color:#0000 ;
     width: 100%;
     height: 50px;
-    display: block;
+    display: flex;
     justify-content: center;
+    border-top: 3px solid;
+    border-color: #383838;
+    
+}
+
+
+h1{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    
+    
 }
 
 
@@ -79,9 +96,10 @@ h3 {
 
 p {
     width: 60%;
-    height: 450px;
+    height: auto;
     color: white;
     padding-top: 20px;
+    padding-bottom:20px ;
 }
 
 
@@ -110,5 +128,21 @@ spam{
     display: flex;
     flex-direction: column;
     align-items: center;
+
+}
+
+
+
+@media(max-width:768px) {
+    
+.footer-navigation {
+    display: block;
+}
+
+nav {
+    display: none;
+}
+
+
 
 }
